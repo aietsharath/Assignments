@@ -1,0 +1,26 @@
+length
+1.length is a final variable applicable for arrays.With the help of the length variable, we can obtain the size of the array.
+2.length can be used for int[],double[],String[] to know the length of the arrays.
+3.to directly access a field member of an array we can use .length; 
+length()
+1.length() method is a final variable which is applicable for string objects. The length() method returns the number of characters present in the string.
+2.length() can be used for String, StringBuilder, etc. String class related Objects to know the length of the String.
+3..length() invokes a method to access a field member.
+
+
+
+
+
+Example
+package org.;
+public class Test {
+	public static void main(String[] args) {
+		int[] array =new int[4];
+		System.out.println(" The size of the array is "  +  array.length);//4
+		String str="Sharath";
+		System.out.println(" The size of the String is "  + str.length());//7
+	}
+
+}
+
+
