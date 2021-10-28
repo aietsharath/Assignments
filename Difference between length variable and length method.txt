@@ -12,7 +12,7 @@ length()
 
 
 Example
-package org.;
+package org.technoelevate.projectname.modulename.submodulename;
 public class Test {
 	public static void main(String[] args) {
 		int[] array =new int[4];
