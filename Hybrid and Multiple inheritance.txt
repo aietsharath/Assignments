@@ -1,0 +1,27 @@
+Hybrid inheritance
+A hybrid inheritance is a combination of more than one types of inheritance. For example when class A and B extends class C & another class D extends class A then this is a hybrid inheritance, because it is a combination of single and hierarchical inheritance.
+   
+
+         C
+         ↑
+         |
+  ---------------
+  ↑             ↑
+  |             |
+  A             B
+  ↑
+  |
+  D
+Representing above statements.
+Multiple inheritance
+Multiple Inheritance is a feature of an object-oriented concept, where a class can inherit properties of more than one parent class. 
+The problem occurs when there exist methods with the same signature in both the superclasses and subclass. On calling the method, the compiler cannot determine which class method to be called and even on calling which class method gets the priority. 
+         
+	  GrandParent
+           /     \
+          /       \
+      Parent1      Parent2
+          \       /
+           \     /
+            Test
+Representing the above statement.

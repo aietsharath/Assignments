@@ -1,0 +1,9 @@
+package org.technoelevate.projectname.modulename.submodulename;
+public class Test {
+	public static void main(String[] args) {
+		int[] array =new int[4];
+		System.out.println(" The size of the array is "  +  array.length);
+		System.out.println(" The size of the array is "  +  array.length());
+		}
+
+}
