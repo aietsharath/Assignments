@@ -1,0 +1,22 @@
+package org.technoelevate.projectname.modulename.submodulename;
+class Server{
+	Server(double money){
+		System.out.println("the owner paid" +money);	
+	}
+Server(int time) {
+	this(100.0);
+	System.out.println("at this time he went to coworks Big Bazar="  +time);
+}
+Server (String marker){
+	this(8);
+	System.out.println("he buy 4 marker");
+}
+Server (int money,int balance){
+	this("marker");
+	System.out.println("the amount he spends" +money);
+	System.out.println("the balance returned" +balance);
+}
+public static void main(String[] args) {
+	Server s=new Server(100,38);
+	}
+}

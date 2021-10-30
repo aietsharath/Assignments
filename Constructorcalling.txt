@@ -1,0 +1,19 @@
+package org.technoelevate.projectname.modulename.submodulename;
+
+public class Constructorcalling {
+	int id=175;
+
+	public Constructorcalling(int id) {
+		this.id=id;
+		}
+	Constructorcalling()
+	{
+		int id=54;
+	}
+	public static void main(String[] args) {
+		Constructorcalling cc=new Constructorcalling();
+		System.out.println(cc.id);
+		
+		
+	}
+}
