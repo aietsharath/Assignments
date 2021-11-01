@@ -1,0 +1,12 @@
+package org.technoelevate.projectname.modulename.submodulename;
+public class Concat {
+		   public static void main(String args[]) {
+		       String str1 = "Welcome";
+		       str1 = str1.concat("to");
+		       str1 = str1.concat("String handling");
+		       System.out.println(str1);
+int result=0;
+result += str1.charAt(0) + str1.charAt(0);
+System.out.println(result);
+		   }
+}

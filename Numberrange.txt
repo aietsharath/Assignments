@@ -1,0 +1,15 @@
+package org.technoelevate.projectname.modulename.submodulename;
+
+public class Numberrange {
+public static void main(String[] args) {
+	int sum=0;
+	int count=5;
+	for(int number=1;count!=0;number++) {
+		if(number%3==0 &&number%5==0) {
+			sum=sum+number;
+			count--;
+		}
+		System.out.println("sum of first 5 numbers" +sum);
+	}
+}
+}
