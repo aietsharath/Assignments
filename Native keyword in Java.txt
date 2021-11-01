@@ -1,0 +1,22 @@
+The native keyword is applied to a method to indicate that the method is implemented in native code using JNI (Java Native Interface). 
+native is a modifier applicable only for methods and we can’t apply it anywhere else. 
+The methods which are implemented in C, C++ are called native methods or foreign methods.
+
+Application of Native Keyword
+To improve the performance of the system.
+To achieve machine level/memory level communication.
+To use already existing legacy non-java code.
+Example
+package org.technoelevate.projectname.modulename.submodulename;
+public class Nkeyword {
+static{
+	        System.loadLibrary("Native library path");
+	    } 
+	    public native void m(); 
+	    	} 
+	class GFG{
+	    public static void main(String[] args){ 
+	        Nkeyword nk = new Nkeyword();
+	        nk.m();
+	    }
+	}

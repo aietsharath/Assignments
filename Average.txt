@@ -1,0 +1,13 @@
+package org.technoelevate.projectname.modulename.submodulename;
+class Anytest{
+	public static void main(String[] args) {
+		Any any=new Any();
+		any.Hierarchical1();
+		Any1 any1=new Any1();
+		any1.Hierarchical1();
+		Any2 any2=new Any2();
+		any2.Hierarchical1();
+		Any3 any3=new Any3();
+		any3.Hierarchical1();
+	}
+}

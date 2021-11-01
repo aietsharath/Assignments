@@ -1,0 +1,102 @@
+package org.technoelevate.projectname.modulename.submodulename;
+public class SingleInheritance {
+	String inheritance="SingleInheritance";
+	void inheritance() {
+		System.out.println("class Subclass inherited from class SingleInheritance");
+	}
+}
+
+
+
+package org.technoelevate.projectname.modulename.submodulename;
+public class Subclass extends SingleInheritance {
+String inherited="Subclass";
+void inherited() {
+	System.out.println("Sub class specific method inherited");
+}
+public static void main(String[] args) {
+Subclass sc= new Subclass();
+System.out.println(sc.inheritance);
+System.out.println(sc.inherited);
+sc.inheritance();
+sc.inherited();
+}
+}
+
+
+package org.technoelevate.projectname.modulename.submodulename;
+public interface Multiple {
+	void  Single1();
+	void More2();
+}
+
+
+package org.technoelevate.projectname.modulename.submodulename;
+public interface Multiple2 {
+void Single2();
+//abstract public 
+void More2();
+//static final 
+String name="Sharath Raj";
+}
+
+
+
+package org.technoelevate.projectname.modulename.submodulename;
+
+public class Single implements Multiple, Multiple2 {
+
+	public static void main(String[] args) {
+		Single s=new Single();
+		s.Single1();
+		s.Single2();
+		s.More2();
+		System.out.println(name);
+	}
+	@Override
+	public void Single2() {
+	System.out.println("Inherited from Multiple2");
+		
+	}
+
+	@Override
+	public void Single1() {
+		System.out.println("Inherited from Multiple");
+		
+	}
+
+	@Override
+	public void More2() {
+		System.out.println("Inherited from Multiple2");
+			}
+	
+}
+
+
+
+package org.technoelevate.projectname.modulename.submodulename;
+public class Hierarchical {
+	void Hierarchical1() {
+		System.out.println("Hierarchical class constructor inherired");
+	}
+}
+class Any extends Hierarchical{
+void Any1(){
+		System.out.println("Any class constructor");
+	}
+}
+class Any1 extends Hierarchical{
+	void Any2(){
+		System.out.println("Any1 class constructor");
+	}
+}
+class Any2 extends Hierarchical{
+	void Any3(){
+		System.out.println("Any2 class constructor");
+	}
+}
+class Any3 extends Hierarchical{
+	void Any4(){
+		System.out.println("Any3 class constructor");
+	}
+}
