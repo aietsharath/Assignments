@@ -1,0 +1,8 @@
+package org.technoelevate.projectname.modulename.submodulename;
+public class Sharath extends Mother
+{
+    @Override
+    void Talent() {
+        System.out.println("Singing normal");
+    }
+}

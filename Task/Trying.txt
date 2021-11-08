@@ -1,0 +1,25 @@
+package org.technoelevate.projectname.modulename.submodulename;
+
+public class Trying
+{
+    public static void main(final String[] args) {
+        final int n = 30;
+        final int d = 5;
+        try {
+            System.out.println(n / d);
+            try {
+                final String a = "a";
+                System.out.println(a.length());
+            }
+            catch (NullPointerException e) {
+                System.out.println("NullPointerException");
+            }
+        }
+        catch (ArithmeticException e2) {
+            System.out.println("ArithmaticException");
+        }
+        catch (Exception e3) {
+            System.out.println("Exception");
+        }
+    }
+}

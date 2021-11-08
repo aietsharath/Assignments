@@ -1,0 +1,11 @@
+package org.technoelevate.projectname.modulename.submodulename;
+
+public class Mainmethodtechnoelevate
+{
+    public static void main(final String[] args) {
+        final Technoelevate technoelevate = new Technoelevate();
+        technoelevate.setName("Sharath");
+        technoelevate.setLearnttopics("has a composition,methods in object class");
+        System.out.println("Name:" + technoelevate.getName() + "\nLearnttopics:" + technoelevate.getLearnttopics());
+    }
+}

@@ -1,0 +1,20 @@
+package org.technoelevate.projectname.modulename.submodulename;
+
+public class MainmethodComputer
+{
+    public static void main(final String[] args) {
+        final Keypad keypad = new Keypad(126, "Black");
+        final Display display = new Display("lithium", "hp");
+        final Computer computer = new Computer("hp", "lithium", 345, "black");
+        keypad.work();
+        System.out.println(keypad.color);
+        System.out.println(keypad.numberofbuttons);
+        System.out.println(display.brand);
+        System.out.println(display.screen);
+        computer.condition();
+        System.out.println(computer.brand);
+        System.out.println(computer.color);
+        System.out.println(computer.numberofbuttons);
+        System.out.println(computer.screen);
+    }
+}
