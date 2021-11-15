@@ -15,7 +15,7 @@ public class Linkedhashset implements Comparable<Linkedhashset> {
 		this.name = name;
 		this.age=age;
 	}
-public static void mainString[] args) {
+public static void main(String[] args) {
 	LinkedHashSet<Linkedhashset> list=new LinkedHashSet<Linkedhashset>();
 	Student s=new Student();
 list.add(new Student("Arif", 01));
@@ -23,13 +23,12 @@ list.add(new Student("Avinash", 02));
 list.add(new Student("Santhosh", 03));
 list.add(new Student("Suddep", 04));
 
-	ArrayList<Linkedhashset> arrayList=new ArrayList<Linkedhashsetcom>(list);
+	ArrayList<Linkedhashset> arrayList=new ArrayList<Linkedhashset>(list);
 	Collections.sort(arrayList);
 	System.out.println(arrayList);
 	Collections.sort(arrayList, comparator);
 	System.out.println(arrayList);
-	 
-	}
+	 }
 
 
 
