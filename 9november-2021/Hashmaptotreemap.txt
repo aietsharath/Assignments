@@ -1,0 +1,19 @@
+package technoelevate.basics.firstday;
+
+
+import java.util.HashMap;
+import java.util.TreeMap;
+
+public class Hashmaptotreemap {
+public static void main(String[] args) {
+	MapDec map=new MapDec();
+	HashMap<Integer,String> map1=new HashMap<Integer,String>();
+	map.put(7, "Thala Dhoni");
+	map.put(3, "S raina");
+	map.put(8, "R Jadeja");
+	System.out.println(map1);
+	TreeMap<Integer,String> tree=new TreeMap<Integer,String>(map1);
+	System.out.println(tree);
+
+}
+}

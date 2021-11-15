@@ -1,0 +1,14 @@
+package technoelevate.basics.firstday;
+
+import java.util.Comparator;
+import java.util.LinkedHashSet;
+
+public class Student implements Comparator<Linkedhashset> {
+
+	@Override
+	public int compare(Linkedhashset o1, Linkedhashset o2) {
+		
+		return o2.id-o1.id;
+	}
+	
+}

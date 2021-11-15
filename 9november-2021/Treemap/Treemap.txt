@@ -1,0 +1,18 @@
+package techno.JavaAssignment.TreeMapAssignment;
+import java.util.Comparator;
+
+
+public class Treemap implements Comparator<Mainmethodtree>{
+
+	@Override
+	public int compare(Mainmethodtree o1, Mainmethodtree o2) {
+		
+		return o2.section-o1.section;
+	}
+
+
+
+
+
+
+}

@@ -1,0 +1,9 @@
+package com.technoelevate.basics.firstday;
+
+public class Freshlite03J extends Thread {
+	@Override
+	public void run() {
+		System.out.print("Hi everyone");
+		
+	}
+}

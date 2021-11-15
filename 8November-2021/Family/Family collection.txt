@@ -1,0 +1,20 @@
+package collectionofcomperable;
+import java.util.ArrayList;
+import java.util.Collections;
+public class Familycollection {
+public static void main(String[] args) {
+	ArrayList<Family> list=new ArrayList<Family>();
+	list.add(new Family(301,"Sandesh","threemonths"));
+	list.add(new Family(302,"Sharath","eightmonths"));
+	list.add(new Family(303,"Dhanajay","sixmonths"));
+	list.add(new Family(304,"Madan","fourmonths"));
+	Collections.sort(list);
+	System.out.println(list);
+   //trainerdec demo1=new trainerdec();
+ //Collections.sort(list,demo1);
+	Familydec f1=new Familydec();
+	Collections.sort(list,f1);
+	System.out.println(list);
+
+}
+}

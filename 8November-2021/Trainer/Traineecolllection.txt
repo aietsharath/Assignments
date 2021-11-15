@@ -1,0 +1,20 @@
+package collectionofcomperable;
+import java.lang.Comparable;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+public class Traineecollection {
+public static void main(String[] args) {
+	ArrayList<Trainee1> list=new ArrayList<Trainee1>();
+	list.add(new Trainee1(301,25,"Sandesh","3months"));
+	list.add(new Trainee1(302,23,"Sharath","8months"));
+	list.add(new Trainee1(303,27,"Dhanajay","6months"));
+	list.add(new Trainee1(304,24,"Madan","4months"));
+	//Collections.sort(list); comparable asecnding order
+	//System.out.println(list);
+    trainerdec demo1=new trainerdec();
+	Collections.sort(list,new trainerdec());
+	System.out.println(list);
+
+}
+}

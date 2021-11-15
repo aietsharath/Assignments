@@ -1,0 +1,8 @@
+package com.technoelevate.basics.firstday;
+
+public class Lambdaexp {
+public static void main(String[] args) {
+	Car car=(String carName)->{System.out.println("Price of "+Name+" is : "+6+","+1+",000Rs");};
+	car.haveCar("TT");
+}
+}

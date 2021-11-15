@@ -1,0 +1,8 @@
+                                       Arrays	                                                                                                                    Collection
+Arrays are fixed in size that is once we create an array we can not increased or decreased based on our requirement.	Collection are growable in nature that is based on our requirement. We can increase or decrease of size.
+With respect to memory Arrays are not recommended to use.	                                                        With respect to memory collection are recommended to use.
+With respect to performance Arrays are recommended to use.	                                                        With respect to performance collection are not recommended to use.
+Arrays can hold only homogeneous data types elements.	                                                                Collection can hold both homogeneous and and heterogeneous elements.
+There is no underlying data structure for arrays and hence ready made  method support is not available.	                Every collection class is implemented based on some standard data structure and hence for every requirement ready made method support is available being a performance. we can use these method directly and We are not responsible to implement these methods.
+Arrays can hold both object and primitive.	                                                                        Collection can hold only object types but primitive.
+ 

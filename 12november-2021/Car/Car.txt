@@ -1,0 +1,5 @@
+package com.technoelevate.basics.firstday;
+
+public interface Car {
+void haveCar(String Name);
+}

@@ -1,0 +1,17 @@
+package com.technoelevate.basics.firstday;
+
+public class Mainmethod {
+public static void main(String[] args) {
+	Mainmethod main=new Mainmethod();
+	Freshlite03J freshlite03J=new Freshlite03J();
+	Freshlite03R freshlite03R=new Freshlite03R();
+	Thread thread=new Thread(freshlite03R);
+	freshlite03J.setPriority(7);
+	thread.setPriority(2);
+	freshlite03J.start();
+	thread.start();
+	System.out.print("wellcome to ");
+	
+	
+}
+}

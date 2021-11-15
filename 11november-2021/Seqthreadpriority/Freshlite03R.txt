@@ -1,0 +1,11 @@
+package com.technoelevate.basics.firstday;
+
+public class Freshlite03R implements Runnable{
+
+	@Override
+	public void run() {
+		System.out.print("Test_Yantra");
+		
+	}
+
+}

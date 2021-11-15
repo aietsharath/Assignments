@@ -1,0 +1,52 @@
+package technoelavate.basics.firstday;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.LinkedHashSet;
+
+public class Linkedhashset implements Comparable<Linkedhashset> {
+	int id;
+	String name;
+	int age;
+	
+
+
+public Linkedhashset(String name,int id ) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.age=age;
+	}
+
+public static void mainString[] args) {
+	LinkedHashSet<Linkedhashset> list=new LinkedHashSet<Linkedhashset>();
+	Student s=new Student();
+list.add(new Student("Arif", 01));
+list.add(new Student("Avinash", 02));
+list.add(new Student("Santhosh", 03));
+list.add(new Student("Suddep", 04));
+
+	ArrayList<Linkedhashset> arrayList=new ArrayList<Linkedhashsetcom>(list);
+	Collections.sort(arrayList);
+	System.out.println(arrayList);
+	Collections.sort(arrayList, comparator);
+	System.out.println(arrayList);
+	 
+	}
+
+
+
+@Override
+public String toString() {
+	return "LinkedHashSetCom [id=" + id + ", name=" + name + "]";
+}
+
+@Override
+public int compareTo(LinkedHashSetCom o) {
+	// TODO Auto-generated method stub
+	return this.id-o.id;
+}
+
+
+}

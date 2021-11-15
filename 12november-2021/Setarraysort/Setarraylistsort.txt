@@ -1,0 +1,18 @@
+package com.technoelevate.basics.firstday;
+
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Set;
+
+	public class Setarraylistsort {
+	public static void main(String[] args) {
+		List<Integer> set =new LinkedList<Integer>();
+		set.add(52);
+		set.add(16);
+		Collections.sort(set);
+	set.forEach(itr->System.out.print(itr+" "));
+	}
+	}

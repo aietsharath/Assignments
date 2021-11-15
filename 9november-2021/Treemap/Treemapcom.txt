@@ -1,0 +1,26 @@
+package techno.JavaAssignment.TreeMapAssignment;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class Treemapcom{
+	public static void main(String[] args) {
+        TreeMap<Mainmethodtree, Integer>map=new TreeMap<>();
+		map.put(new Mainmethodtree(1, "PADIKAL"),05);
+		map.put(new Mainmethodtree(2, "VIRAT"),15);
+		map.put(new Mainmethodtree(3, "ABDE"),25);
+		map.put(new Mainmethodtree(4, "MAXWELL"),35);
+		 TreeMap<Mainmethodtree, Integer>map1=new TreeMap<>(new Treemap());
+		 map1.putAll(map);
+		 System.out.println(map);
+		 System.out.println(map1);
+		
+	}
+
+
+
+
+
+	}

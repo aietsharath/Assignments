@@ -1,0 +1,29 @@
+package technoelevate.basics.firstday;
+
+import java.util.Comparator;
+
+public class Mainmethodtreemap implements Comparable<Mainmethodtreemap>{
+	int section;
+	String name;
+	public Mainmethodtreema(int section, String name) {
+		super();
+		this.section = section;
+		this.name = name;
+	}
+	@Override
+	public String toString() {
+		return "Mainmethodtreemap [section=" + section + ", name=" + name + "]";
+	}
+
+	@Override
+	public int compareTo(Mainmethodtreemap o) {
+		// TODO Auto-generated method stub
+		return this.section-o.section;
+	}
+	
+
+
+
+	
+
+}

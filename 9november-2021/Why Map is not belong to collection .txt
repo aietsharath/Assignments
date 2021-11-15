@@ -1,0 +1,1 @@
+Maps in Java do not inherit from the interface "Collection"

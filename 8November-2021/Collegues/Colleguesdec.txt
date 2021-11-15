@@ -1,0 +1,13 @@
+package collectionofcomperable;
+
+import java.util.Comparator;
+
+public class Colleguesdec implements Comparator<Collegues>{
+
+	@Override
+	public int compare(Collegues o1, Collegues o2) {
+		// TODO Auto-generated method stub
+		return o2.relation.compareTo(o1.relation);
+	}
+
+}

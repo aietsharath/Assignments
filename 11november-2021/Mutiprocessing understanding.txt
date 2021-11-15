@@ -1,0 +1,5 @@
+Mutiprocessing 
+Multiprocessing is a system that has more than one or two processors.
+In Multiprocessing, CPUs are added for increasing computing speed of the system. 
+Because of Multiprocessing, 
+There are many processes are executed simultaneously.

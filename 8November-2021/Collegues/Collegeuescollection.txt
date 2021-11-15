@@ -1,0 +1,16 @@
+package collectionofcomperable;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Collections;
+public class Colleguecollection {
+public static void main(String[] args) {
+	List<Collegues> c=new ArrayList<Collegues>();
+c.add(new Collegues(1, 23, "Collegue"));
+c.add(new Collegues(2, 24, "Projectmanager"));
+c.add(new Collegues(3, 32, "Dean"));
+Collections.sort(c);
+System.out.println(c);
+Collections.sort(c,new Colleguesdec());
+System.out.println(c);
+}
+}

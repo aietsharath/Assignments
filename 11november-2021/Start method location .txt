@@ -1,0 +1,3 @@
+The java.lang.Thread.start() method causes this thread to begin execution
+The Java Virtual Machine calls the run method of this thread.
+The result is that two threads are running concurrently: the current thread (which returns from the call to the start method) and the other thread (which executes its run method).

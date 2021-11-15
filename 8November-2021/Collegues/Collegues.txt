@@ -1,0 +1,21 @@
+package collectionofcomperable;
+public class Collegues implements Comparable<Collegues>{
+int id;
+int age;
+String relation;
+
+public Collegues(int id, int age, String relation) {
+	super();
+	this.id = id;
+	this.age = age;
+	this.relation = relation;
+}
+@Override
+public String toString() {
+	return "Collegues [id=" + id + ", age=" + age + ", relation=" + relation + "]";
+}
+@Override
+public int compareTo(Collegues o) {
+	return this.relation.compareTo(o.relation);
+}
+}

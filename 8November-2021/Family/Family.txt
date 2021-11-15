@@ -1,0 +1,20 @@
+package collectionofcomperable;
+public class Family implements Comparable <Family>{
+int age;
+String relation;
+String name;
+public Family(int age, String relation,String name) {
+	super();
+	this.age = age;
+	this.relation = relation;
+	this.name=name;
+	}
+
+@Override
+public String toString() {
+	return "Family [age=" + age + ", relation=" + relation + ", name=" + name + "]";
+}
+public int compareTo(Family o) {
+	return this.relation.compareTo(o.relation); 
+			}
+}

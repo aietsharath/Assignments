@@ -1,0 +1,6 @@
+Garbage collection
+In C/C++, programmer is responsible for both creation and destruction of objects. 
+Java, the programmer need not to care for all those objects which are no longer in use.
+Garbage collector destroys these objects.
+Garbage collector is best example of Daemon thread as it is always running in background.
+Main objective of Garbage Collector is to free heap memory by destroying unreachable objects.

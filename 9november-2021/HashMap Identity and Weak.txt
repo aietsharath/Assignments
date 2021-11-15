@@ -1,0 +1,10 @@
+PROPERTIES	
+                                                            IdentityHashMap	                                                   WeakHashMap	                                                            EnumMap
+References	                                IdentityHashMap stores strong key reference. 	                      WeakHashMap stores the weak key reference.	                  EnumMap stores the strong key reference.
+Search and get the values	                It uses equality operator (==) to search and get the values.	      It uses equals() method for that purpose.	                          It also uses equals() method for that purpose.
+Keys	It allows to store any type of keys.	It also allows to store any type of keys.	                      It allows to store only enum type keys.
+Underlined data structure	                It uses the array as an underlined data structure. 	              It uses the HashTable as an underlined data structure.	          It uses the array as an underlined data structure.
+Iterator	                                Iterator used in IdentityHashMap is Fail-fast.	                      Iterator used in WeakHashMap is Fail-fast.	                  Iterator used in EnumMap is weakly consistent.
+Null Values	                                It allows to store null values.	                                      It allows to store null values.	                                  It doesn’t allow to store null values
+
+

@@ -1,0 +1,25 @@
+package collectionofcomperable;
+
+import java.util.Comparator;
+
+public class Trainee1 implements Comparable<Trainee1>{
+int id;
+int age;
+String name;
+String exp;
+public Trainee1(int id, int age, String name, String exp) {
+	super();
+	this.id= id;
+	this.age = age;
+	this.name = name;
+	this.exp =exp;
+}
+
+@Override
+public String toString() {
+	return "Trainee1 [id=" + id + ", age=" + age + ", name=" + name + ", exp=" + exp + "]";
+}
+public int compareTo(Trainee1 o) {
+	return this.exp.compareTo(o.exp); 
+			}
+}

@@ -1,0 +1,30 @@
+package collectionofcomperable;
+import java.util.*;
+public class SortHashset {
+public static void main(String[] args) {
+	/*HashSet<Person> set= new HashSet <Person>();
+	Set<String> numbers = new TreeSet<>();
+
+	set.add(new Person("Avinash",15,"Bengaluru"));
+	set.add(new Person("Rakshith",14,"Udupi"));
+	set.add(new Person("Anujith",26,"Chikkamagaluru"));
+	numbers.iterator();
+	System.out.println(set);
+//System.out.println(set);*/
+	 Set<String> setobj = new HashSet<>();
+     setobj.add("come");
+     setobj.add("To");
+     setobj.add("My");
+     setobj.add("Home");
+     System.out.println("HashSet: "
+                        + setobj);
+
+     Set<String> hashSetToTreeSet
+         = new TreeSet<>();
+     hashSetToTreeSet.addAll(setobj);
+
+     System.out.println("TreeSet: "
+                        + hashSetToTreeSet);
+ }
+
+}
