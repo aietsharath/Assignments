@@ -39,11 +39,11 @@ list.add(new Student("Suddep", 04));
 
 @Override
 public String toString() {
-	return "LinkedHashSetCom [id=" + id + ", name=" + name + "]";
+	return "Linkedhashsetcom [id=" + id + ", name=" + name + "]";
 }
 
 @Override
-public int compareTo(LinkedHashSetCom o) {
+public int compareTo(Linkedhashsetcom o) {
 	// TODO Auto-generated method stub
 	return this.id-o.id;
 }
