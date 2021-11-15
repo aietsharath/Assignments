@@ -3,7 +3,6 @@ public class Collegues implements Comparable<Collegues>{
 int id;
 int age;
 String relation;
-
 public Collegues(int id, int age, String relation) {
 	super();
 	this.id = id;
