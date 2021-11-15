@@ -1,0 +1,46 @@
+package org.technoelevate.projectname.modulename.submodulename;
+
+public class Alltypeofex
+{
+    public static void main(final String[] args) {
+        final int x = 7;
+        final int y = 14;
+        try {
+            final int num = Integer.parseInt("ten");
+            System.out.println(num);
+            final String a = "This is not fare";
+            final char c = a.charAt(24);
+            System.out.println(c);
+            final String a2 = null;
+            System.out.println(a2.charAt(0));
+            System.out.println("Main method is started");
+            System.out.println(y / x);
+            final int[] i = new int[2];
+            i[i[0] = 1] = 2;
+            i[i[2] = 3] = 4;
+            System.out.println("Succusfully divided");
+        }
+        catch (NumberFormatException e) {
+            System.out.println("NumberFormatException");
+        }
+        catch (StringIndexOutOfBoundsException e2) {
+            System.out.println("StringIndexOutOfBondsException");
+        }
+        catch (ArithmeticException e3) {
+            System.out.println("ArithmaticException");
+        }
+        catch (ArrayIndexOutOfBoundsException e4) {
+            System.out.println("Arrayoutofbondexception");
+        }
+        catch (NullPointerException e5) {
+            System.out.println("NullPointerException");
+        }
+        catch (Exception e6) {
+            System.out.println("");
+        }
+        finally {
+            System.out.println("End of the programme");
+        }
+        System.out.println("End of the programme");
+    }
+}

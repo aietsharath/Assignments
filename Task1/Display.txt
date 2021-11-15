@@ -1,0 +1,17 @@
+package org.technoelevate.projectname.modulename.submodulename;
+
+public class Display
+{
+    String screen;
+    String brand;
+    
+    public Display(final String screen, final String brand) {
+        this.screen = screen;
+        this.brand = brand;
+    }
+    
+    @Override
+    public String toString() {
+        return "Display [screen=" + this.screen + ", brand=" + this.brand + "]";
+    }
+}

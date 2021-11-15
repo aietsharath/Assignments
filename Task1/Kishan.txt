@@ -1,0 +1,8 @@
+package org.technoelevate.projectname.modulename.submodulename;
+
+public class Kishan extends Mother
+{
+    void Talent() {
+        System.out.println("Singing normal");
+    }
+}
