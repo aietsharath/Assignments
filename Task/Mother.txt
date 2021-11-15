@@ -1,8 +1,0 @@
-package org.technoelevate.projectname.modulename.submodulename;
-
-public class Mother
-{
-    void Talent() {
-        System.out.println("Singing good");
-    }
-}
