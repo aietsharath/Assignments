@@ -1,0 +1,11 @@
+
+mysql> select * from  pet where name is not null;
++-------+--------+---------------+------+------------+------------+
+| name  | owner  | species       | sex  | birth      | death      |
++-------+--------+---------------+------+------------+------------+
+| JIJU  | VIRAT  | MUDHOL        | M    | 2021-11-19 | 2041-11-19 |
+| PIKU  | DHONI  | GERMANSHEFARD | F    | 2021-10-19 | 2041-10-19 |
+| HULI  | DRAVID | ROTVILLAR     | M    | 2021-01-19 | 2041-10-18 |
+| JHONY | KISHAN | DOG           | M    | 2021-01-19 | 2061-02-28 |
++-------+--------+---------------+------+------------+------------+
+4 rows in set (0.00 sec)

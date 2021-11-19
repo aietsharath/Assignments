@@ -1,0 +1,9 @@
+mysql> select owner as parent from pet;
++--------+
+| parent |
++--------+
+| VIRAT  |
+| DHONI  |
+| DRAVID |
+| KISHAN |
++--------+
