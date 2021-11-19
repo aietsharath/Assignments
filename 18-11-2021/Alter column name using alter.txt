@@ -1,0 +1,25 @@
+ select * from pet;
++-------+--------+---------------+------+------------+------------+
+| name  | owner  | species       | sex  | birth      | death      |
++-------+--------+---------------+------+------------+------------+
+| JIJU  | VIRAT  | MUDHOL        | M    | 2021-11-19 | 2041-11-19 |
+| PIKU  | DHONI  | GERMANSHEFARD | F    | 2021-10-19 | 2041-10-19 |
+| HULI  | DRAVID | ROTVILLAR     | M    | 2021-01-19 | 2041-10-18 |
+| JHONY | KISHAN | DOG           | M    | 2021-01-19 | 2061-02-28 |
++-------+--------+---------------+------+------------+------------+
+4 rows in set (0.19 sec)
+
+mysql> alter table pet
+    -> rename column species to bread;
+Query OK, 0 rows affected (2.07 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> select * from pet;
++-------+--------+---------------+------+------------+------------+
+| name  | owner  | bread         | sex  | birth      | death      |
++-------+--------+---------------+------+------------+------------+
+| JIJU  | VIRAT  | MUDHOL        | M    | 2021-11-19 | 2041-11-19 |
+| PIKU  | DHONI  | GERMANSHEFARD | F    | 2021-10-19 | 2041-10-19 |
+| HULI  | DRAVID | ROTVILLAR     | M    | 2021-01-19 | 2041-10-18 |
+| JHONY | KISHAN | DOG           | M    | 2021-01-19 | 2061-02-28 |
++-------+--------+---------------+------+------------+------------+
