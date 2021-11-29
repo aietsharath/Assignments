@@ -1,0 +1,7 @@
+SELECT EMP_NAME,MGR,DEPTNO FROM EMPLOYEE
+    -> WHERE MGR=7698 AND DEPTNO=30;
++---------------+------+--------+
+| EMP_NAME      | MGR  | DEPTNO |
++---------------+------+--------+
+| CHANDRA KANTH | 7698 |     30 |
++---------------+------+--------+

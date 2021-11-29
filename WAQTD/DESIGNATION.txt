@@ -1,0 +1,10 @@
+
+mysql> SELECT DESIGNATION FROM EMPLOYEE;
++-------------+
+| DESIGNATION |
++-------------+
+| DEVELOPER   |
+| CIVIL       |
+| ELECTRICAL  |
+| ELECTRO     |
++-------------+

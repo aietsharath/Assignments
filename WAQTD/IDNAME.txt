@@ -1,0 +1,9 @@
+mysql> SELECT emp_id,emp_name FROM employee;
++--------+---------------+
+| emp_id | emp_name      |
++--------+---------------+
+|      1 | SHARATH RAJ   |
+|      2 | CHANDRA KANTH |
+|      3 | RAGHUNATHDAS  |
+|      4 | RRR           |
++--------+---------------+

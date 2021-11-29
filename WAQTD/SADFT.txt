@@ -1,0 +1,12 @@
+
+mysql> use company;
+Database changed
+mysql> select * from employee;
++--------+---------------+-------------+----------+-------+
+| EMP_ID | EMP_NAME      | DESIGNATION | SALARY   | leave |
++--------+---------------+-------------+----------+-------+
+|      1 | SHARATH RAJ   | DEVELOPER   | 60000.95 |  NULL |
+|      2 | CHANDRA KANTH | CIVIL       | 40000.95 |  NULL |
+|      3 | RAGHUNATHDAS  | ELECTRICAL  | 51000.95 |  NULL |
+|      4 | RRR           | ELECTRO     | 51000.95 |  NULL |
++--------+---------------+-------------+----------+-------+

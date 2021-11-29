@@ -1,0 +1,7 @@
+SELECT emp_name FROM employee
+    -> WHERE deptno=10;
++---------------+
+| emp_name      |
++---------------+
+| CHANDRA KANTH |
++---------------+

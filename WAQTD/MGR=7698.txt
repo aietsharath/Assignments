@@ -1,0 +1,7 @@
+SELECT emp_name FROM employee
+    -> WHERE mgr=7698;
++---------------+
+| emp_name      |
++---------------+
+| CHANDRA KANTH |
++---------------+

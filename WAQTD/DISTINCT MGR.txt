@@ -1,0 +1,9 @@
+SELECT DISTINCT mgr FROM employee;
++-----+
+| mgr |
++-----+
+|   0 |
+|   1 |
+|   2 |
+|   3 |
++-----+

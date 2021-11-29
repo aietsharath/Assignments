@@ -1,0 +1,7 @@
+ SELECT salary FROM employee
+    -> WHERE salary<3000;
++--------+
+| salary |
++--------+
+|   2999 |
++--------+

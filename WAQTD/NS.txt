@@ -1,0 +1,10 @@
+
+mysql> SELECT EMP_NAME,SALARY FROM EMPLOYEE;
++---------------+----------+
+| EMP_NAME      | SALARY   |
++---------------+----------+
+| SHARATH RAJ   | 60000.95 |
+| CHANDRA KANTH | 40000.95 |
+| RAGHUNATHDAS  | 51000.95 |
+| RRR           | 51000.95 |
++---------------+----------+

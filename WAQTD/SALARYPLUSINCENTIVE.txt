@@ -1,0 +1,9 @@
+SELECT emp_name, salary+500 FROM employee;
++---------------+------------+
+| emp_name      | salary+500 |
++---------------+------------+
+| SHARATH RAJ   |   60500.95 |
+| CHANDRA KANTH |   40500.95 |
+| RAGHUNATHDAS  |   51500.95 |
+| RRR           |   51500.95 |
++---------------+------------+

@@ -1,0 +1,9 @@
+ SELECT emp_name, salary*0.81 AS salry_deduct FROM employee;
++---------------+--------------+
+| emp_name      | salry_deduct |
++---------------+--------------+
+| SHARATH RAJ   |   48600.7695 |
+| CHANDRA KANTH |   32400.7695 |
+| RAGHUNATHDAS  |   41310.7695 |
+| RRR           |   41310.7695 |
++---------------+--------------+

@@ -1,0 +1,10 @@
+ SELECT emp_name FROM employee
+    -> WHERE salary>1200;
++---------------+
+| emp_name      |
++---------------+
+| SHARATH RAJ   |
+| CHANDRA KANTH |
+| RAGHUNATHDAS  |
+| RRR           |
++---------------+

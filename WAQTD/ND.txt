@@ -1,0 +1,9 @@
+ SELECT EMP_NAME,DEPTNO FROM EMPLOYEE;
++---------------+--------+
+| EMP_NAME      | DEPTNO |
++---------------+--------+
+| SHARATH RAJ   |      0 |
+| CHANDRA KANTH |      0 |
+| RAGHUNATHDAS  |      0 |
+| RRR           |      0 |
++---------------+--------+

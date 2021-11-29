@@ -1,0 +1,9 @@
+mysql> SELECT emp_name,designation FROM employee;
++---------------+-------------+
+| emp_name      | designation |
++---------------+-------------+
+| SHARATH RAJ   | DEVELOPER   |
+| CHANDRA KANTH | CIVIL       |
+| RAGHUNATHDAS  | ELECTRICAL  |
+| RRR           | ELECTRO     |
++---------------+-------------+

@@ -1,0 +1,18 @@
+
+mysql> SELECT salary FROM employee;
++----------+
+| salary   |
++----------+
+| 60000.95 |
+| 40000.95 |
+| 51000.95 |
+| 51000.95 |
++----------+
+4 rows in set (0.00 sec)
+
+mysql> SELECT max(salary) FROM employee;
++-------------+
+| max(salary) |
++-------------+
+|    60000.95 |
++-------------+
